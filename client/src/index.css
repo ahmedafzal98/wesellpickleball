@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 200vh; /* scrollable page */
+  background: linear-gradient(
+    to bottom,
+    #000000fb 0%,
+    /* black at the very top */ #000000fb 45%,
+    /* still black at 45% */ #b7d92d 95%,
+    /* light golden starts at 55% */ #9eb424 80%,
+    /* slightly darker golden */ #7b8e1b 100% /* even darker golden at bottom */
+  );
+  overflow-x: hidden;
+}
