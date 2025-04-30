@@ -22,7 +22,7 @@ const BookmarkSection = () => {
 
         <div className="flex justify-center items-center gap-6 pt-2 text-2xl sm:text-3xl">
           <a
-            href="https://facebook.com/yourbrand"
+            href="https://www.facebook.com/wesellpickleball"
             target="_blank"
             rel="noopener noreferrer"
             className="transition hover:scale-110"
@@ -31,7 +31,7 @@ const BookmarkSection = () => {
             <FaFacebook />
           </a>
           <a
-            href="https://instagram.com/yourbrand"
+            href=" https://www.instagram.com/wesellpickleball"
             target="_blank"
             rel="noopener noreferrer"
             className="transition hover:scale-110"
@@ -40,7 +40,7 @@ const BookmarkSection = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://tiktok.com/@yourbrand"
+            href="https://www.tiktok.com/@wesellpickleball"
             target="_blank"
             rel="noopener noreferrer"
             className="transition hover:scale-110"
