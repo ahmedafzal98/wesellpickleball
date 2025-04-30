@@ -3,7 +3,7 @@ import pickleball_logo from "../assets/pickleball_logo.webp";
 const Navbar = () => {
   return (
     <>
-      <nav className="text-white flex flex-col items-center justify-center h-auto">
+      <nav className="overflow-x-hidden text-white flex flex-col items-center justify-center h-auto">
         <div className="w-4/5 h-22 flex justify-center xl:justify-start ">
           <img
             src={pickleball_logo}

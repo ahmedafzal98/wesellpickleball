@@ -4,71 +4,64 @@ import pickleballCourt from "../assets/picleball_court.webp";
 
 const BookmarkSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-black py-8 sm:py-12 px-6">
-      <div
-        className="max-w-3xl text-center space-y-6 sm:space-y-8"
-        style={{ fontSize: "20px", lineHeight: "1.6" }}
-      >
-        <p className="text-[#B7D92D] font-semibold text-2xl sm:text-3xl">
+    <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black py-8 px-4 sm:py-12 sm:px-6">
+      <div className="w-full max-w-2xl text-center space-y-5 sm:space-y-6 text-white text-base sm:text-lg leading-relaxed">
+        <p className="text-[#B7D92D] font-semibold text-xl sm:text-2xl">
           Bookmark this page.
         </p>
 
-        <p className="text-white font-normal text-lg sm:text-xl">
+        <p>
           When we go live very soon, we will create a pickleball tsunami and
           your pickleball life will never be the same.
         </p>
 
-        {/* New paragraph with icons */}
-        <div className="text-white font-normal space-y-4 sm:space-y-6">
-          <p className="text-lg sm:text-xl">
-            We are currently adopting followers. Join our online family via
-            Facebook, Instagram, and TikTok.
-          </p>
-          <div className="flex justify-center items-center gap-6 pt-2 text-3xl sm:text-4xl">
-            <a
-              href="https://facebook.com/yourbrand"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition hover:scale-110"
-              style={{ color: "#1877F2" }}
-            >
-              <FaFacebook />
-            </a>
-            <a
-              href="https://instagram.com/yourbrand"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition hover:scale-110"
-              style={{ color: "#E1306C" }}
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://tiktok.com/@yourbrand"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition hover:scale-110"
-              style={{ color: "#25F4EE" }}
-            >
-              <FaTiktok />
-            </a>
-          </div>
-        </div>
-
-        <p className="text-white font-normal text-lg sm:text-xl">
-          With pickles in our pockets and smiles on our faces,
+        <p>
+          We are currently adopting followers. Join our online family via
+          Facebook, Instagram, and TikTok.
         </p>
 
-        <p className="text-[#B7D92D] font-semibold text-2xl sm:text-3xl">
+        <div className="flex justify-center items-center gap-6 pt-2 text-2xl sm:text-3xl">
+          <a
+            href="https://facebook.com/yourbrand"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition hover:scale-110"
+            style={{ color: "#1877F2" }}
+          >
+            <FaFacebook />
+          </a>
+          <a
+            href="https://instagram.com/yourbrand"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition hover:scale-110"
+            style={{ color: "#E1306C" }}
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href="https://tiktok.com/@yourbrand"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition hover:scale-110"
+            style={{ color: "#25F4EE" }}
+          >
+            <FaTiktok />
+          </a>
+        </div>
+
+        <p>With pickles in our pockets and smiles on our faces,</p>
+
+        <p className="text-[#B7D92D] font-semibold text-xl sm:text-2xl">
           Your Pickleball Overlords
         </p>
       </div>
 
-      <div className="mt-8 sm:mt-12">
+      <div className="mt-6 sm:mt-10">
         <img
           src={pickleballCourt}
           alt="Pickleball Court"
-          className="max-w-full h-auto rounded-lg shadow-lg"
+          className="w-full max-w-md h-auto rounded-lg shadow-lg"
         />
       </div>
     </div>
