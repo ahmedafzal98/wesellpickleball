@@ -1,11 +1,10 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const AffiliateInfo = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-black py-8 sm:py-12 px-6">
+    <div className="flex flex-col items-center justify-center bg-black pt-3 px-6">
       <div
-        className="max-w-3xl text-center text-white font-normal space-y-4 sm:space-y-6"
+        className="max-w-3xl text-center text-white font-normal space-y-6 sm:space-y-8"
         style={{ fontSize: "20px", lineHeight: "1.6" }}
       >
         <p>
