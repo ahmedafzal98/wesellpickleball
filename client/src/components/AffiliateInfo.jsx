@@ -3,7 +3,7 @@ import React from "react";
 const AffiliateInfo = () => {
   return (
     <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black pt-4 pb-12 px-4 sm:px-6">
-      <div className="w-full max-w-2xl text-white text-base sm:text-lg leading-relaxed text-left space-y-4 sm:space-y-5">
+      <div className="w-full max-w-2xl text-white text-base sm:text-lg leading-relaxed text-center space-y-6 sm:space-y-8">
         <p>
           Think one-stop shop for all things pickleball. 🏓 We will have more
           pickleball paraphernalia than there are grains of sand on a really big
