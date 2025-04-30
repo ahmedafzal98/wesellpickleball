@@ -3,10 +3,10 @@ import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const AffiliateInfo = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-black py-12 px-6">
+    <div className="flex flex-col items-center justify-center bg-black py-8 sm:py-12 px-6">
       <div
-        className="max-w-3xl text-center text-white font-normal space-y-4"
-        style={{ fontSize: "30px" }}
+        className="max-w-3xl text-center text-white font-normal space-y-4 sm:space-y-6"
+        style={{ fontSize: "20px", lineHeight: "1.6" }}
       >
         <p>
           Think one-stop shop for all things pickleball. 🏓 We will have more

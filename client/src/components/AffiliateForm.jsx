@@ -69,8 +69,11 @@ const AffiliateForm = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-black py-12 px-6">
-      <form onSubmit={handleSubmit} className="w-full max-w-2xl space-y-6">
+    <div className="flex flex-col items-center justify-center bg-black py-8 sm:py-12 px-6">
+      <form
+        onSubmit={handleSubmit}
+        className="w-full max-w-2xl space-y-6 sm:space-y-8"
+      >
         {/* Show success or error messages */}
         {serverMessage.message && (
           <div
@@ -84,51 +87,55 @@ const AffiliateForm = () => {
           </div>
         )}
 
-        <div className="flex flex-col md:flex-row gap-4">
+        {/* First Name */}
+        <div className="flex flex-col gap-4">
           <input
             type="text"
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
             placeholder="First Name"
-            className="flex-1 bg-transparent border-2 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
+            className="bg-transparent border-2 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
             style={{ borderColor: "#B7D92D" }}
           />
+          {errors.firstName && (
+            <div className="text-red-500 text-sm">{errors.firstName}</div>
+          )}
         </div>
-        {errors.firstName && (
-          <div className="text-red-500 text-sm">{errors.firstName}</div>
-        )}
 
-        <div className="flex flex-col md:flex-row gap-4">
+        {/* Last Name */}
+        <div className="flex flex-col gap-4">
           <input
             type="text"
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
             placeholder="Last Name"
-            className="flex-1 bg-transparent border-2 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
+            className="bg-transparent border-2 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
             style={{ borderColor: "#B7D92D" }}
           />
+          {errors.lastName && (
+            <div className="text-red-500 text-sm">{errors.lastName}</div>
+          )}
         </div>
-        {errors.lastName && (
-          <div className="text-red-500 text-sm">{errors.lastName}</div>
-        )}
 
-        <div>
+        {/* Email */}
+        <div className="flex flex-col gap-4">
           <input
             type="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
             placeholder="Email"
-            className="w-full bg-transparent border-2 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
+            className="bg-transparent border-2 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
             style={{ borderColor: "#B7D92D" }}
           />
+          {errors.email && (
+            <div className="text-red-500 text-sm">{errors.email}</div>
+          )}
         </div>
-        {errors.email && (
-          <div className="text-red-500 text-sm">{errors.email}</div>
-        )}
 
+        {/* Submit Button */}
         <div className="flex justify-center">
           <button
             type="submit"
