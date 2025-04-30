@@ -51,7 +51,7 @@ const BookmarkSection = () => {
         </div>
 
         {/* New paragraph with mailto link */}
-        <p>
+        <p className="flex flex-col">
           To showcase your product(s) on our website and receive worldwide
           exposure, email your product info, product pictures, pricing and our
           specific affiliate link so we can adopt you as part of our pickleball
