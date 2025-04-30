@@ -9,17 +9,12 @@ const BookmarkSection = () => {
         <p className="text-[#B7D92D] font-semibold text-xl sm:text-2xl">
           Bookmark this page.
         </p>
-
         <p>
           When we go live very soon, we will create a pickleball tsunami and
           your pickleball life will never be the same.
         </p>
-
-        <p>
-          We are currently adopting followers. Join our online family via
-          Facebook, Instagram, and TikTok.
-        </p>
-
+        We are currently adopting followers. Join our online family via
+        Facebook, Instagram, and TikTok by clicking on the 3 icons below…
         <div className="flex justify-center items-center gap-6 pt-2 text-2xl sm:text-3xl">
           <a
             href="https://facebook.com/yourbrand"
@@ -49,9 +44,7 @@ const BookmarkSection = () => {
             <FaTiktok />
           </a>
         </div>
-
         <p>With pickles in our pockets and smiles on our faces,</p>
-
         <p className="text-[#B7D92D] font-semibold text-xl sm:text-2xl">
           Your Pickleball Overlords
         </p>
