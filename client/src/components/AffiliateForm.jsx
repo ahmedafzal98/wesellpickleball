@@ -31,13 +31,15 @@ const AffiliateForm = () => {
   };
 
   const handleSubmit = async (e) => {
+    const apiUrl = import.meta.env.VITE_API_URL;
+
     e.preventDefault();
     const validationErrors = validateForm();
     setErrors(validationErrors);
 
     if (Object.keys(validationErrors).length === 0) {
       try {
-        const response = await fetch("https://wesellpickleball.onrender.com", {
+        const response = await fetch(`${apiUrl}/api/affiliate`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
