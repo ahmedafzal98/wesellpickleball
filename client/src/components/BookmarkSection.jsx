@@ -5,16 +5,21 @@ import pickleballCourt from "../assets/picleball_court.webp";
 const BookmarkSection = () => {
   return (
     <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black py-8 px-4 sm:py-12 sm:px-6">
-      <div className="w-full max-w-2xl text-center space-y-6 sm:space-y-8 text-white text-base sm:text-lg leading-relaxed">
+      <div className="w-full max-w-2xl text-center space-y-5 sm:space-y-6 text-white text-base sm:text-lg leading-relaxed">
         <p className="text-[#B7D92D] font-semibold text-xl sm:text-2xl">
           Bookmark this page.
         </p>
+
         <p>
           When we go live very soon, we will create a pickleball tsunami and
           your pickleball life will never be the same.
         </p>
-        We are currently adopting followers. Join our online family via
-        Facebook, Instagram, and TikTok by clicking on the 3 icons below…
+
+        <p>
+          We are currently adopting followers. Join our online family via
+          Facebook, Instagram, and TikTok by clicking on the 3 icons below…
+        </p>
+
         <div className="flex justify-center items-center gap-6 pt-2 text-2xl sm:text-3xl">
           <a
             href="https://facebook.com/yourbrand"
@@ -44,7 +49,29 @@ const BookmarkSection = () => {
             <FaTiktok />
           </a>
         </div>
+
+        {/* New paragraph with mailto link */}
+        <p>
+          If you would like to partner with us and receive worldwide exposure
+          for your product(s), email info, pictures, pricing and our specific
+          affiliate link to:{" "}
+          <a
+            href="mailto:info@wesellpickleball.com?subject=Product%20Suggestion/Feedback"
+            className="text-[#B7D92D] underline"
+          >
+            info@wesellpickleball.com
+          </a>
+        </p>
+
+        <p>
+          Our mantra is fostering the pickleball community so we are all ears.
+          If you have any ideas or suggestions, email us as well. We take your
+          feedback very seriously because this is the pickleball community’s
+          website not just ours.
+        </p>
+
         <p>With pickles in our pockets and smiles on our faces,</p>
+
         <p className="text-[#B7D92D] font-semibold text-xl sm:text-2xl">
           Your Pickleball Overlords
         </p>
