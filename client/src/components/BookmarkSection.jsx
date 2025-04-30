@@ -52,9 +52,10 @@ const BookmarkSection = () => {
 
         {/* New paragraph with mailto link */}
         <p>
-          If you would like to partner with us and receive worldwide exposure
-          for your product(s), email info, pictures, pricing and our specific
-          affiliate link to:{" "}
+          To showcase your product(s) on our website and receive worldwide
+          exposure, email your product info, product pictures, pricing and our
+          specific affiliate link so we can adopt you as part of our pickleball
+          family:
           <a
             href="mailto:info@wesellpickleball.com?subject=Product%20Suggestion/Feedback"
             className="text-[#B7D92D] underline"
