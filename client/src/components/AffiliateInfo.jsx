@@ -17,8 +17,8 @@ const AffiliateInfo = () => {
           pickleball-fetching drone named, “Dinky.”
         </p>
         <p>
-          We are the Amazon for pickleball , so if you can dream it, we will
-          have it.
+          We are the Amazon for pickleball, so if you can dream it, we will have
+          it.
         </p>
         <p>
           We’re about to unleash pickleball pandemonium upon the world and{" "}
