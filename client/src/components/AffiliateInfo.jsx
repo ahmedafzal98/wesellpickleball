@@ -43,9 +43,10 @@ const AffiliateInfo = () => {
           commission and can make more green than a leprechaun wears on St.
           Patty’s Day. ☘ Easy peasy!
         </p>
+
         <p>
-          Take “002” seconds and complete the simple form below. When we launch
-          our affiliate program, you will be the first to know.
+          Take “002” seconds and complete the form below. When we launch our
+          affiliate program, you will be the first to know.
         </p>
       </div>
     </div>

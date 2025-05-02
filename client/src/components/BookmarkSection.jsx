@@ -17,7 +17,7 @@ const BookmarkSection = () => {
 
         <p>
           We are currently adopting followers. Join our online family via
-          Facebook, Instagram, and TikTok by clicking on the 3 icons below…
+          Facebook, Instagram, and TikTok by clicking on the icons below…
         </p>
 
         <div className="flex justify-center items-center gap-6 pt-2 text-2xl sm:text-3xl">
