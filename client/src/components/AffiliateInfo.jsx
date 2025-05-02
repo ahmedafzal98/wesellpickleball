@@ -1,8 +1,10 @@
 import React from "react";
 
+import affiliateIcon from "../assets/affiliate_icon.png";
+
 const AffiliateInfo = () => {
   return (
-    <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black pt-4 pb-12 px-4 sm:px-6">
+    <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black pb-12 px-4 sm:px-6 mt-[-20px]">
       <div className="w-full max-w-2xl text-white text-lg sm:text-xl leading-relaxed text-center space-y-7 sm:space-y-9">
         <p>
           Think one-stop shop for all things pickleball. 🏓 We will have more
@@ -15,17 +17,24 @@ const AffiliateInfo = () => {
           pickleball-fetching drone named, “Dinky.”
         </p>
         <p>
-          We are the Amazon for pickleball so if you can dream it, we will have
-          it.
+          We are the Amazon for pickleball , so if you can dream it, we will
+          have it.
         </p>
         <p>
           We’re about to unleash pickleball pandemonium upon the world and{" "}
-          <span className="text-[#B7D92D]">YOU’RE INVITED!!!</span>
+          <span className="text-lime-400">YOU’RE INVITED!!!</span>
         </p>
+
+        <img
+          src={affiliateIcon}
+          alt="Affiliate Icon"
+          className="w-6 h-6 mx-auto my-2 mb-6"
+        />
+
         <p>Do you have a megaphone mouth?</p>
         <p>Are you a social media influencer?</p>
         <p>
-          Would you like to make some serious “dill” dough 🥒💰 and spread some
+          Would you like to make some serious dough 💰 and spread some
           Pickleball Gospel?
         </p>
         <p>

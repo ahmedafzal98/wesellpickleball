@@ -95,8 +95,7 @@ const AffiliateForm = () => {
             value={formData.firstName}
             onChange={handleChange}
             placeholder="First Name"
-            className="bg-transparent border-2 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
-            style={{ borderColor: "#B7D92D" }}
+            className="bg-transparent border-2 border-lime-400 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
           />
           {errors.firstName && (
             <div className="text-red-500 text-sm">{errors.firstName}</div>
@@ -111,8 +110,7 @@ const AffiliateForm = () => {
             value={formData.lastName}
             onChange={handleChange}
             placeholder="Last Name"
-            className="bg-transparent border-2 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
-            style={{ borderColor: "#B7D92D" }}
+            className="bg-transparent border-2 border-lime-400 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
           />
           {errors.lastName && (
             <div className="text-red-500 text-sm">{errors.lastName}</div>
@@ -127,8 +125,7 @@ const AffiliateForm = () => {
             value={formData.email}
             onChange={handleChange}
             placeholder="Email"
-            className="bg-transparent border-2 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
-            style={{ borderColor: "#B7D92D" }}
+            className="bg-transparent border-2 border-lime-400 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
           />
           {errors.email && (
             <div className="text-red-500 text-sm">{errors.email}</div>

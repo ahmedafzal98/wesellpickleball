@@ -14,10 +14,7 @@ const Banner = () => {
       </div>
 
       {/* Add space between the paragraphs below */}
-      <p
-        className="text-center font-semibold max-w-2xl px-4 text-xl sm:text-2xl md:text-2xl mt-20 leading-relaxed"
-        style={{ color: "#B7D92D" }}
-      >
+      <p className="text-center font-semibold max-w-2xl px-4 text-lime-400 text-xl sm:text-2xl md:text-2xl mt-20 leading-relaxed">
         Welcome to WeSellPickleball.com, the most all-inclusive online
         pickleball store in the world!
       </p>
