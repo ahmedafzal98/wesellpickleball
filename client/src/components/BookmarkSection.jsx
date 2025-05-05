@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
-import affiliateIcon from "../assets/Affiliate.png";
+import pplIcon from "../assets/ppl.png";
 
 import pickleballCourt from "../assets/picleball_court.webp";
 import { MdEmail } from "react-icons/md";
@@ -19,7 +19,7 @@ const BookmarkSection = () => {
         </p>
 
         <img
-          src={affiliateIcon}
+          src={pplIcon}
           alt="Affiliate Icon"
           className="w-12 h-12 sm:w-16 sm:h-16 mx-auto my-2"
         />
@@ -70,13 +70,14 @@ const BookmarkSection = () => {
           family.
         </p>
 
-        <div className="flex justify-center items-center ">
+        <div className="flex flex-col items-center justify-center space-y-2">
           <a
             href="mailto:info@wesellpickleball.com?subject=Product%20Suggestion/Feedback"
             className="text-lime-400 flex items-center hover:underline transition-transform hover:scale-105"
           >
             <MdEmail className="text-2xl" />
           </a>
+          <p className="text-white text-base sm:text-lg">Connect With Us</p>
         </div>
 
         <p>
