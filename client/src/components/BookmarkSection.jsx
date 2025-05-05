@@ -21,7 +21,7 @@ const BookmarkSection = () => {
         <img
           src={pplIcon}
           alt="Affiliate Icon"
-          className="w-14 h-14 sm:w-16 sm:h-16 mx-auto my-2"
+          className="w-18 h-18 sm:w-18 sm:h-18 mx-auto my-2"
         />
 
         <p className="text-base sm:text-lg font-semibold text-lime-400">
@@ -37,7 +37,7 @@ const BookmarkSection = () => {
             href="https://www.facebook.com/wesellpickleball"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition hover:scale-110"
+            className="transition hover:scale-110 w-9 h-9"
             style={{ color: "#1877F2" }}
           >
             <FaFacebook />
@@ -46,7 +46,7 @@ const BookmarkSection = () => {
             href=" https://www.instagram.com/wesellpickleball"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition hover:scale-110"
+            className="transition hover:scale-110 w-9 h-9"
             style={{ color: "#E1306C" }}
           >
             <FaInstagram />
@@ -55,7 +55,7 @@ const BookmarkSection = () => {
             href="https://www.tiktok.com/@wesellpickleball"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition hover:scale-110"
+            className="transition hover:scale-110 w-9 h-9"
             style={{ color: "#25F4EE" }}
           >
             <FaTiktok />
@@ -75,7 +75,7 @@ const BookmarkSection = () => {
             href="mailto:info@wesellpickleball.com?subject=Product%20Suggestion/Feedback"
             className="text-lime-400 flex items-center hover:underline transition-transform hover:scale-105"
           >
-            <MdEmail className="text-2xl" />
+            <MdEmail className="w-9 h-9 mx-auto my-2" />
           </a>
           <p className="text-white text-base sm:text-lg">Connect With Us</p>
         </div>
