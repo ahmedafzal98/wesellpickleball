@@ -1,6 +1,9 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import affiliateIcon from "../assets/Affiliate.png";
+
 import pickleballCourt from "../assets/picleball_court.webp";
+import { MdEmail } from "react-icons/md";
 
 const BookmarkSection = () => {
   return (
@@ -15,6 +18,15 @@ const BookmarkSection = () => {
           your pickleball life will never be the same.
         </p>
 
+        <img
+          src={affiliateIcon}
+          alt="Affiliate Icon"
+          className="w-12 h-12 sm:w-16 sm:h-16 mx-auto my-2"
+        />
+
+        <p className="text-base sm:text-lg font-semibold text-lime-400">
+          Join Our Family
+        </p>
         <p>
           We are currently adopting followers. Join our online family via
           Facebook, Instagram, and TikTok by clicking on the icons below…
@@ -51,18 +63,21 @@ const BookmarkSection = () => {
         </div>
 
         {/* New paragraph with mailto link */}
-        <p className="flex flex-col">
+        <p className="text-white text-base sm:text-lg leading-relaxed text-center">
           To showcase your product(s) on our website and receive worldwide
-          exposure, email your product info, product pictures, pricing and our
+          exposure, email your product info, product pictures, pricing, and our
           specific affiliate link so we can adopt you as part of our pickleball
-          family:
+          family.
+        </p>
+
+        <div className="flex justify-center items-center ">
           <a
             href="mailto:info@wesellpickleball.com?subject=Product%20Suggestion/Feedback"
-            className="text-lime-400 underline"
+            className="text-lime-400 flex items-center hover:underline transition-transform hover:scale-105"
           >
-            info@wesellpickleball.com
+            <MdEmail className="text-2xl" />
           </a>
-        </p>
+        </div>
 
         <p>
           Our mantra is fostering the pickleball community so we are all ears.
