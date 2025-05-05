@@ -21,7 +21,7 @@ const BookmarkSection = () => {
         <img
           src={pplIcon}
           alt="Affiliate Icon"
-          className="w-12 h-12 sm:w-16 sm:h-16 mx-auto my-2"
+          className="w-14 h-14 sm:w-16 sm:h-16 mx-auto my-2"
         />
 
         <p className="text-base sm:text-lg font-semibold text-lime-400">
