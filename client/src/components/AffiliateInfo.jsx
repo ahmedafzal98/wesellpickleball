@@ -28,7 +28,7 @@ const AffiliateInfo = () => {
         <img
           src={affiliateIcon}
           alt="Affiliate Icon"
-          className="w-14 h-14 mx-auto my-2"
+          className="w-16 h-16 mx-auto my-2"
         />
 
         <p className="text-base sm:text-lg font-semibold text-lime-400">
