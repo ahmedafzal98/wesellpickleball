@@ -1,6 +1,6 @@
 import React from "react";
 
-import affiliateIcon from "../assets/affiliate_icon.png";
+import affiliateIcon from "../assets/Affiliate.png";
 
 const AffiliateInfo = () => {
   return (
@@ -28,8 +28,12 @@ const AffiliateInfo = () => {
         <img
           src={affiliateIcon}
           alt="Affiliate Icon"
-          className="w-6 h-6 mx-auto my-2 mb-6"
+          className="w-12 h-12 sm:w-16 sm:h-16 mx-auto my-2"
         />
+
+        <p className="text-base sm:text-lg font-semibold text-lime-400">
+          Affiliate Program
+        </p>
 
         <p>Do you have a megaphone mouth?</p>
         <p>Are you a social media influencer?</p>
