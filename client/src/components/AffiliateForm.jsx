@@ -33,6 +33,8 @@ const AffiliateForm = () => {
   const handleSubmit = async (e) => {
     const apiUrl = import.meta.env.VITE_API_URL;
 
+    console.log(apiUrl);
+
     e.preventDefault();
     const validationErrors = validateForm();
     setErrors(validationErrors);
