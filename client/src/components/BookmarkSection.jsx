@@ -21,8 +21,8 @@ const BookmarkSection = () => {
   };
 
   return (
-    <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black py-12 px-4 sm:py-16 sm:px-6">
-      <div className="w-full max-w-2xl text-center space-y-6 text-white">
+    <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black px-4 sm:px-6 mt-7">
+      <div className="w-full max-w-2xl text-white text-lg sm:text-xl leading-relaxed text-center space-y-7 sm:space-y-9">
         <a
           href="#"
           onClick={handleBookmark}
@@ -42,7 +42,7 @@ const BookmarkSection = () => {
           className="w-20 h-20 mx-auto my-4"
         />
 
-        <p className="text-lime-400 text-xl font-semibold">Join Our Family</p>
+        <p className="text-lime-400 font-bold text-xl ">Join Our Family</p>
 
         <p className="text-base sm:text-lg">
           We are currently adopting followers. Join our online family via
@@ -93,7 +93,7 @@ const BookmarkSection = () => {
           >
             <MdEmail className="w-8 h-8 mr-2" />
           </a>
-          <p className="text-lime-400 font-semibold text-base sm:text-lg">
+          <p className="text-lime-400 font-bold text-base sm:text-lg">
             Connect With Us
           </p>
         </div>

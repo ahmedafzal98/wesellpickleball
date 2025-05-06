@@ -22,7 +22,7 @@ const AffiliateInfo = () => {
         </p>
         <p>
           We’re about to unleash pickleball pandemonium upon the world and{" "}
-          <span className="text-lime-400 font-semibold">YOU’RE INVITED!!!</span>
+          <span className="text-lime-400 font-bold">YOU’RE INVITED!!!</span>
         </p>
 
         <img
@@ -31,7 +31,7 @@ const AffiliateInfo = () => {
           className="w-16 h-16 mx-auto my-2"
         />
 
-        <p className="text-lg sm:text-xl font-semibold text-lime-400">
+        <p className="text-lg sm:text-xl text-lime-400 font-bold">
           Affiliate Program
         </p>
 
