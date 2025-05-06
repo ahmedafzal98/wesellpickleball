@@ -58,7 +58,7 @@ const sendEmail = async (to) => {
   });
 
   const mailOptions = {
-    from: '"WeSellPickleball" <ahmed.afzal2070@gmail.com>',
+    from: process.env.EMAIL_USER,
 
     to,
     subject: "Get Your WeSellPickleball.com Affiliate On...",
