@@ -58,7 +58,8 @@ const sendEmail = async (to) => {
   });
 
   const mailOptions = {
-    from: '"WeSellPickleball" <no-reply@wesellpickleball.com>',
+    from: '"WeSellPickleball" <ahmed.afzal2070@gmail.com>',
+
     to,
     subject: "Get Your WeSellPickleball.com Affiliate On...",
     html: `
