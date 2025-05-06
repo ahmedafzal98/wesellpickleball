@@ -4,7 +4,7 @@ import affiliateIcon from "../assets/Affiliate.png";
 
 const AffiliateInfo = () => {
   return (
-    <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black pb-12 px-4 sm:px-6 mt-[-20px]">
+    <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black px-4 sm:px-6 ">
       <div className="w-full max-w-2xl text-white text-lg sm:text-xl leading-relaxed text-center space-y-7 sm:space-y-9">
         <p>
           Think one-stop shop for all things pickleball. 🏓 We will have more
@@ -17,12 +17,12 @@ const AffiliateInfo = () => {
           pickleball-fetching drone named, “Dinky.”
         </p>
         <p>
-          We are the Amazon for pickleball, so if you can dream it, we will have
+          We’re the Amazon for pickleball, so if you can dream it, we will have
           it.
         </p>
         <p>
           We’re about to unleash pickleball pandemonium upon the world and{" "}
-          <span className="text-lime-400">YOU’RE INVITED!!!</span>
+          <span className="text-lime-400 font-semibold">YOU’RE INVITED!!!</span>
         </p>
 
         <img
@@ -31,9 +31,7 @@ const AffiliateInfo = () => {
           className="w-16 h-16 mx-auto my-2"
         />
 
-        <p className="text-base sm:text-lg font-semibold text-lime-400">
-          Affiliate Program
-        </p>
+        <p className="text-lg font-semibold text-lime-400">Affiliate Program</p>
 
         <p>Do you have a megaphone mouth?</p>
         <p>Are you a social media influencer?</p>
