@@ -91,7 +91,7 @@ const BookmarkSection = () => {
         <div className="flex flex-col items-center space-y-2">
           <a
             href="mailto:info@wesellpickleball.com?subject=Product%20Suggestion/Feedback"
-            className="text-lime-400 flex items-center hover:underline hover:scale-105 transition-transform"
+            className="text-white flex items-center hover:underline hover:scale-105 transition-transform"
           >
             <MdEmail className="w-8 h-8 mr-2" />
           </a>
