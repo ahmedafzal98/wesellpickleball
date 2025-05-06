@@ -31,7 +31,9 @@ const AffiliateInfo = () => {
           className="w-16 h-16 mx-auto my-2"
         />
 
-        <p className="text-lg font-semibold text-lime-400">Affiliate Program</p>
+        <p className="text-lg sm:text-xl font-semibold text-lime-400">
+          Affiliate Program
+        </p>
 
         <p>Do you have a megaphone mouth?</p>
         <p>Are you a social media influencer?</p>
