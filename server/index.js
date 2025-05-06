@@ -112,7 +112,7 @@ app.post("/api/affiliate", async (req, res) => {
     res.status(200).json({ message: "Form submitted and email sent!" });
   } catch (error) {
     console.error("Error:", error);
-    res.status(500).json({ message: "Server error." });
+    res.status(500).json({ message: "Server error.", error });
   }
 });
 
