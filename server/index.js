@@ -9,19 +9,12 @@ require("dotenv").config();
 const app = express();
 
 // Middleware
-const allowedOrigins = process.env.CORS_ALLOWED_ORIGINS?.split(",") || [];
+const allowedOrigins =
+  process.env.CORS_ALLOWED_ORIGINS || "http://localhost:5173"; // Default to localhost for development
 const corsOptions = {
-  origin: function (origin, callback) {
-    if (
-      allowedOrigins.length === 0 ||
-      allowedOrigins.includes(origin) ||
-      !origin
-    ) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
+  origin: allowedOrigins,
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  credentials: true,
 };
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
