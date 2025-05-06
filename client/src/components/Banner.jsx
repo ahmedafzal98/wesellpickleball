@@ -4,11 +4,11 @@ const Banner = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-black px-4 py-12 sm:py-16 text-center">
       {/* Banner with slanted text */}
-      <div className="text-center transform -rotate-6 space-y-6">
-        <h1 className="text-lime-400 text-5xl sm:text-6xl md:text-7xl font-extrabold">
+      <div className="text-center transform -rotate-6 space-y-4 sm:space-y-6">
+        <h1 className="text-lime-400 text-4xl sm:text-5xl md:text-6xl font-extrabold">
           AloooooHAAAA,
         </h1>
-        <h2 className="text-white text-3xl sm:text-4xl md:text-6xl font-extrabold whitespace-nowrap">
+        <h2 className="text-white text-2xl sm:text-3xl md:text-5xl font-extrabold whitespace-nowrap">
           PICKLEBALL FANATICS!
         </h2>
       </div>
