@@ -9,7 +9,21 @@ require("dotenv").config();
 const app = express();
 
 // Middleware
-app.use(cors());
+const allowedOrigins = process.env.CORS_ALLOWED_ORIGINS?.split(",") || [];
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (
+      allowedOrigins.length === 0 ||
+      allowedOrigins.includes(origin) ||
+      !origin
+    ) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+};
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 // MongoDB connection
@@ -103,5 +117,7 @@ app.post("/api/affiliate", async (req, res) => {
 });
 
 // Start server
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const port = process.env.PORT || 5000; // Default to 5000 locally if no environment variable is set
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
