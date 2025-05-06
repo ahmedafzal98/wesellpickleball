@@ -14,7 +14,7 @@ const Banner = () => {
       </div>
 
       {/* Add space between the paragraphs below */}
-      <p className="text-center font-semibold max-w-2xl px-4 text-lime-400 text-xl sm:text-2xl md:text-2xl mt-10 leading-relaxed">
+      <p className="text-center font-bold max-w-2xl px-4 text-lime-400 text-xl sm:text-2xl md:text-2xl mt-10 leading-relaxed">
         Welcome to WeSellPickleball.com, the most all-inclusive online
         pickleball store in the world!
       </p>

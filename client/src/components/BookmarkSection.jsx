@@ -42,9 +42,11 @@ const BookmarkSection = () => {
           className="w-20 h-20 mx-auto my-4"
         />
 
-        <p className="text-lime-400 font-bold text-xl ">Join Our Family</p>
+        <p className="text-lime-400 font-bold text-xl leading-relaxed">
+          Join Our Family
+        </p>
 
-        <p className="text-base sm:text-lg">
+        <p className="text-lg sm:text-xl leading-relaxed">
           We are currently adopting followers. Join our online family via
           Facebook, Instagram, and TikTok by clicking on the icons below…
         </p>
@@ -79,7 +81,7 @@ const BookmarkSection = () => {
           </a>
         </div>
 
-        <p className="text-base sm:text-lg">
+        <p className="text-lg sm:text-xl leading-relaxed">
           To showcase your product(s) on our website and receive worldwide
           exposure, email your product info, product pictures, pricing, and our
           specific affiliate link so we can adopt you as part of our pickleball
@@ -93,21 +95,23 @@ const BookmarkSection = () => {
           >
             <MdEmail className="w-8 h-8 mr-2" />
           </a>
-          <p className="text-lime-400 font-bold text-base sm:text-lg">
+          <p className="text-lime-400 font-bold text-xl leading-relaxed">
             Connect With Us
           </p>
         </div>
 
-        <p className="text-base sm:text-lg">
+        <p className="text-lg sm:text-xl leading-relaxed">
           Our mantra is fostering the pickleball community so we are all ears.
           If you have any ideas or suggestions, email us as well. We take your
           feedback very seriously because this is the pickleball community’s
           website — not just ours.
         </p>
 
-        <p>With pickles in our pockets and smiles on our faces,</p>
+        <p className="text-lg sm:text-xl leading-relaxed">
+          With pickles in our pockets and smiles on our faces,
+        </p>
 
-        <p className="text-lime-400 font-bold text-2xl sm:text-3xl">
+        <p className="text-lime-400 font-bold text-2xl sm:text-3xl leading-relaxed">
           Your Pickleball Overlords
         </p>
       </div>
