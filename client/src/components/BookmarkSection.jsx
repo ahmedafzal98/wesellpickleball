@@ -106,7 +106,7 @@ const BookmarkSection = () => {
             href="mailto:info@wesellpickleball.com?subject=Product%20Suggestion/Feedback"
             className="text-white flex items-center hover:underline hover:scale-105 transition-transform"
           >
-            <MdEmail className="w-8 h-8 mr-2" />
+            <MdEmail className="mt-3 mb-4 w-8 h-8 mr-2" />
           </a>
         </div>
 
