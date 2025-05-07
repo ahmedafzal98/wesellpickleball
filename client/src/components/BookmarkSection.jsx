@@ -32,7 +32,7 @@ const BookmarkSection = () => {
 
   return (
     <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black px-4 sm:px-6 mt-7">
-      <div className="w-full max-w-2xl text-white text-lg sm:text-xl leading-relaxed text-center space-y-7 sm:space-y-9">
+      <div className="w-full max-w-2xl text-white text-xl sm:text-2xl leading-relaxed text-center space-y-7 sm:space-y-9">
         {/* Decorative "Bookmark this page." */}
         <div className="flex items-center justify-center mb-6">
           <div className="w-1/5 h-1 bg-lime-400 rounded-full" />
