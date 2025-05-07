@@ -41,7 +41,7 @@ const BookmarkSection = () => {
             onClick={handleBookmark}
             className="text-lime-400 font-bold text-3xl sm:text-4xl hover:underline hover:scale-105 transition-transform px-4 whitespace-nowrap"
           >
-            Bookmark this page.
+            Bookmark this page
           </a>
           <div className="w-1/5 h-1 bg-lime-400 rounded-full" />
         </div>
