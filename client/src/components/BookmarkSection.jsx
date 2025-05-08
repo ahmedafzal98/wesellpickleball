@@ -103,7 +103,7 @@ const BookmarkSection = () => {
             className="hover:scale-110 transition"
             style={{ color: "#1877F2" }}
           >
-            <FaFacebook />
+            <FaFacebook className="h-10 w-10" />
           </a>
           <a
             href="https://www.instagram.com/wesellpickleball"
@@ -112,7 +112,7 @@ const BookmarkSection = () => {
             className="hover:scale-110 transition"
             style={{ color: "#E1306C" }}
           >
-            <FaInstagram />
+            <FaInstagram className="h-10 w-10" />
           </a>
           <a
             href="https://www.tiktok.com/@wesellpickleball"
@@ -121,7 +121,7 @@ const BookmarkSection = () => {
             className="hover:scale-110 transition"
             style={{ color: "#25F4EE" }}
           >
-            <FaTiktok />
+            <FaTiktok className="h-10 w-10" />
           </a>
         </div>
 
