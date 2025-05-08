@@ -144,7 +144,7 @@ const BookmarkSection = () => {
         <div className="flex flex-col items-center">
           <a
             href="mailto:info@wesellpickleball.com?subject=Product%20Suggestion/Feedback"
-            className="text-[#9AE600] font-altoneBold flex items-center hover:underline hover:scale-105 transition-transform"
+            className="text-[#9AE600] font-altoneBold flex items-center text-2xl sm:text-3xl md:text-3xl hover:underline hover:scale-105 transition-transform"
           >
             <p>info@wesellpickleball.com</p>
           </a>
