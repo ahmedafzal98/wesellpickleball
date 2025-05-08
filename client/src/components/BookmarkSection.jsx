@@ -5,6 +5,7 @@ import pplIcon from "../assets/ppl.png";
 import pickleballCourt from "../assets/picleball_court.webp";
 import affiliateIcon from "../assets/affiliateIcon.png";
 import socialIcon from "../assets/social.png";
+import emailIcon from "../assets/EmailIcon.png";
 import AffiliateForm from "./AffiliateForm";
 
 const BookmarkSection = () => {
@@ -150,7 +151,11 @@ const BookmarkSection = () => {
         </div>
 
         <div className="flex justify-center mt-18">
-          <MdEmail className="w-[66px] h-[53px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]" />
+          <img
+            src={emailIcon}
+            alt="socialIcon"
+            className="w-[66px] h-[53px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
+          />
         </div>
 
         {/* Decorative "Connect With Us" heading */}
