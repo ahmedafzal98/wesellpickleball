@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <Banner />
       <AffiliateInfo />
-      <AffiliateForm />
       <BookmarkSection />
+      {/* <AffiliateForm /> */}
     </>
   );
 }

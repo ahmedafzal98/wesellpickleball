@@ -3,6 +3,9 @@ import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import pplIcon from "../assets/ppl.png";
 import pickleballCourt from "../assets/picleball_court.webp";
+import affiliateIcon from "../assets/affiliateIcon.png";
+import socialIcon from "../assets/social.png";
+import AffiliateForm from "./AffiliateForm";
 
 const BookmarkSection = () => {
   const [showModal, setShowModal] = useState(false);
@@ -21,50 +24,78 @@ const BookmarkSection = () => {
 
   // Reusable heading section
   const SectionHeading = ({ text }) => (
-    <div className="flex items-center justify-center mt-14 mb-6">
-      <div className="w-1/5 h-1 bg-lime-400 rounded-full" />
-      <h2 className="text-lime-400 font-bold text-3xl sm:text-4xl px-4 text-center whitespace-nowrap">
+    <div className="flex items-center justify-center mb-6">
+      <div className="w-full h-0.5 bg-[#9AE600] rounded-full" />
+      <h2 className="text-[#9AE600] font-altoneBold text-3xl sm:text-4xl md:text-4xl px-4 text-center whitespace-nowrap">
         {text}
       </h2>
-      <div className="w-1/5 h-1 bg-lime-400 rounded-full" />
+      <div className="w-full h-0.5 bg-[#9AE600] rounded-full" />
     </div>
   );
 
   return (
-    <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black px-4 sm:px-6 mt-7">
+    <div className="overflow-x-hidden flex flex-col items-center justify-center px-4 sm:px-6 mt-7">
       <div className="w-full max-w-2xl text-white text-xl sm:text-2xl leading-relaxed text-center space-y-7 sm:space-y-9">
         {/* Decorative "Bookmark this page." */}
         <div className="flex items-center justify-center mb-6">
-          <div className="w-1/5 h-1 bg-lime-400 rounded-full" />
+          {/* <div className="w-1/5 h-1 bg-[#9AE600] rounded-full" /> */}
           <a
             href="#"
             onClick={handleBookmark}
-            className="text-lime-400 font-bold text-3xl sm:text-4xl hover:underline hover:scale-105 transition-transform px-4 whitespace-nowrap"
+            className="text-[#9AE600]  mt-5 font-bold text-3xl sm:text-4xl hover:underline hover:scale-105 transition-transform"
           >
-            Bookmark this page
+            Click here to bookmark this page.
           </a>
-          <div className="w-1/5 h-1 bg-lime-400 rounded-full" />
+
+          {/* <div className="w-1/5 h-1 bg-[#9AE600] rounded-full" /> */}
         </div>
 
-        <p>
-          When we go live very soon, we will create a pickleball tsunami and
-          your pickleball life will never be the same.
-        </p>
+        <div className="h-10" />
+
+        <img
+          src={affiliateIcon}
+          alt="affiliateIcon"
+          className="w-[76px] h-[90px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
+        />
+
+        <SectionHeading text="AFFILIATE PROGRAM" />
+        <div className="overflow-x-hidden flex flex-col items-center justify-center px-4 sm:px-6">
+          <div className="w-full font-normal font-altoneRegular max-w-2xl text-white text-2xl sm:text-3xl leading-normal text-center space-y-4">
+            <p>Do you have a megaphone mouth?</p>
+            <p>Are you a social media influencer?</p>
+            <p>
+              Would you like to make some serious dough 💰 and spread some
+              Pickleball Gospel?
+            </p>
+            <p>
+              If so, we have a “dill”icious deal for you. Join our affiliate
+              program—anytime someone uses your personalized link, you receive
+              commission and can make more green than a leprechaun wears on
+              St.Patty’s Day. ☘ Easy peasy!
+            </p>
+            <p>
+              Take “002” seconds and complete the form below. When we launch our
+              affiliate program, you will be the first to know.
+            </p>
+          </div>
+        </div>
+
+        <AffiliateForm />
 
         <img
           src={pplIcon}
           alt="Affiliate Icon"
-          className="w-20 h-20 mx-auto my-4"
+          className="w-auto h-auto mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
         />
 
         <SectionHeading text="Join Our Family" />
 
-        <p>
+        <p className="font-altoneRegular text-2xl sm:text-3xl md:text-3xl">
           We are currently adopting followers. Join our online family via
-          Facebook, Instagram, and TikTok by clicking on the icons below…
+          Facebook, Instagram, and TikTok by clicking on the icons below
         </p>
 
-        <div className="flex justify-center items-center gap-6 text-3xl pt-3 flex-wrap">
+        <div className="flex justify-center items-center gap-6 mb-22 text-3xl flex-wrap">
           <a
             href="https://www.facebook.com/wesellpickleball"
             target="_blank"
@@ -94,35 +125,52 @@ const BookmarkSection = () => {
           </a>
         </div>
 
-        <p>
+        <img
+          src={socialIcon}
+          alt="socialIcon"
+          className="w-[75px] h-[68px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
+        />
+
+        <SectionHeading text="Join Forces with Us" />
+
+        <p className="font-altoneRegular text-2xl sm:text-3xl md:text-3xl">
           To showcase your product(s) on our website and receive worldwide
           exposure, email your product info, product pictures, pricing, and our
           specific affiliate link so we can adopt you as part of our pickleball
-          family.
+          family:
         </p>
 
-        <div className="flex flex-col items-center space-y-2">
+        <div className="flex flex-col items-center">
           <a
             href="mailto:info@wesellpickleball.com?subject=Product%20Suggestion/Feedback"
-            className="text-white flex items-center hover:underline hover:scale-105 transition-transform"
+            className="text-[#9AE600] font-altoneBold flex items-center hover:underline hover:scale-105 transition-transform"
           >
-            <MdEmail className="mt-3 mb-4 w-8 h-8 mr-2" />
+            <p>info@wesellpickleball.com</p>
           </a>
         </div>
 
+        <div className="flex justify-center mt-18">
+          <MdEmail className="w-[66px] h-[53px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]" />
+        </div>
+
         {/* Decorative "Connect With Us" heading */}
+
         <SectionHeading text="Connect With Us" />
 
-        <p>
-          Our mantra is fostering the pickleball community so we are all ears.
-          If you have any ideas or suggestions, email us as well. We take your
-          feedback very seriously because this is the pickleball community’s
-          website, not just ours.
-        </p>
+        <div className="overflow-x-hidden flex flex-col items-center justify-center px-4 sm:px-6">
+          <div className="w-full font-normal font-altoneRegular max-w-2xl text-white text-2xl sm:text-3xl leading-normal text-center space-y-4">
+            <p>
+              Our mantra is fostering the pickleball community so we are all
+              ears. If you have any ideas or suggestions, email us as well. We
+              take your feedback very seriously because this is the pickleball
+              community’s website, not just ours.
+            </p>
 
-        <p>With pickles in our pockets and smiles on our faces,</p>
+            <p>With pickles in our pockets and smiles on our faces,</p>
+          </div>
+        </div>
 
-        <p className="text-lime-400 font-bold text-3xl sm:text-4xl leading-relaxed">
+        <p className="text-[#9AE600] font-brushItalic text-3xl sm:text-4xl leading-normal">
           Your Pickleball Overlords
         </p>
       </div>
@@ -131,7 +179,7 @@ const BookmarkSection = () => {
         <img
           src={pickleballCourt}
           alt="Pickleball Court"
-          className="w-full max-w-md h-auto rounded-lg shadow-lg"
+          className="w-full max-w-md h-auto rounded-lg shadow-lg mb-5"
         />
       </div>
 

@@ -74,7 +74,7 @@ const AffiliateForm = () => {
   };
 
   return (
-    <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black sm:py-12 px-6 mt-7">
+    <div className="overflow-x-hidden flex flex-col items-center justify-center sm:py-12 px-6 mt-10">
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-2xl space-y-6 sm:space-y-8"
@@ -100,7 +100,7 @@ const AffiliateForm = () => {
             value={formData.firstName}
             onChange={handleChange}
             placeholder="First Name"
-            className="bg-transparent border-2 border-lime-400 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
+            className="bg-transparent border-2 border-[#9AE600] rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
           />
           {errors.firstName && (
             <div className="text-red-500 text-sm">{errors.firstName}</div>
@@ -115,7 +115,7 @@ const AffiliateForm = () => {
             value={formData.lastName}
             onChange={handleChange}
             placeholder="Last Name"
-            className="bg-transparent border-2 border-lime-400 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
+            className="bg-transparent border-2 border-[#9AE600] rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
           />
           {errors.lastName && (
             <div className="text-red-500 text-sm">{errors.lastName}</div>
@@ -130,7 +130,7 @@ const AffiliateForm = () => {
             value={formData.email}
             onChange={handleChange}
             placeholder="Email"
-            className="bg-transparent border-2 border-lime-400 rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
+            className="bg-transparent border-2 border-[#9AE600] rounded-md px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-0 focus:shadow-[0_0_10px_#B7D92D]"
           />
           {errors.email && (
             <div className="text-red-500 text-sm">{errors.email}</div>
@@ -141,7 +141,7 @@ const AffiliateForm = () => {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="bg-black border-2 cursor-pointer border-white text-white font-semibold px-8 py-4 rounded-xl w-full hover:bg-white hover:text-black transition"
+            className="bg-black border-2 cursor-pointer border-white text-white font-semibold px-8 py-4 mb-18 rounded-xl w-full hover:bg-white hover:text-black transition"
           >
             Send
           </button>

@@ -1,10 +1,13 @@
 import React from "react";
-import affiliateIcon from "../assets/Affiliate.png";
 
 const AffiliateInfo = () => {
   return (
-    <div className="overflow-x-hidden flex flex-col items-center justify-center bg-black px-4 sm:px-6 py-10">
-      <div className="w-full max-w-2xl text-white text-xl sm:text-2xl leading-relaxed text-center space-y-7 sm:space-y-9">
+    <div className="overflow-x-hidden flex flex-col items-center justify-center px-4 sm:px-6">
+      <div className="w-full font-normal font-altoneRegular max-w-2xl text-white text-2xl sm:text-3xl leading-normal text-center space-y-4">
+        <p className="text-center font-altoneBold max-w-2xl px-4 text-[#9AE600] text-2xl sm:text-3xl md:text-3xl mt-7 leading-normal">
+          Welcome to WeSellPickleball.com, the most all-inclusive online
+          pickleball store in the world!
+        </p>
         <p>
           Think one-stop shop for all things pickleball. 🏓 We will have more
           pickleball paraphernalia than there are grains of sand on a really big
@@ -13,34 +16,36 @@ const AffiliateInfo = () => {
         <p>
           We’re talking EVERYTHING pickleball, from glow-in-the-dark pickleball
           socks that play “Eye of the Tiger” when you sweat, to a personal
-          pickleball-fetching drone named, “Dinky.”
+          pickleball- fetching drone named, “Dinky.”
         </p>
         <p>
           We’re the Amazon for pickleball, so if you can dream it, we will have
           it.
         </p>
         <p>
-          We’re about to unleash pickleball pandemonium upon the world and{" "}
-          <span className="text-lime-400 font-bold">YOU’RE INVITED!!!</span>
+          We’re about to unleash pickleball pandemonium upon the world and
+          you’re invited!
+        </p>
+        <p>
+          When we go live very soon, we will create a pickleball tsunami and
+          your pickleball life will never be the same.
         </p>
 
-        {/* Add space below invitation */}
-        <div className="h-10" />
-
-        {/* Decorative line and headline */}
-        <div className="flex items-center justify-center space-x-4">
-          <div className="w-1/5 h-1 bg-lime-400 rounded-full" />
-          <p className="text-lime-400 font-bold text-3xl sm:text-4xl leading-relaxed whitespace-nowrap">
-            Affiliate Program
-          </p>
-          <div className="w-1/5 h-1 bg-lime-400 rounded-full" />
-        </div>
+        {/* <div className="h-10" />
 
         <img
           src={affiliateIcon}
           alt="Affiliate Icon"
           className="w-16 h-16 mx-auto my-4"
         />
+
+        <div className="flex items-center justify-center space-x-4">
+          <div className="w-1/5 h-1 bg-[#9AE600] rounded-full" />
+          <p className="text-[#9AE600] font-bold text-3xl sm:text-4xl leading-relaxed whitespace-nowrap">
+            Affiliate Program
+          </p>
+          <div className="w-1/5 h-1 bg-[#9AE600] rounded-full" />
+        </div>
 
         <p>Do you have a megaphone mouth?</p>
         <p>Are you a social media influencer?</p>
@@ -57,7 +62,7 @@ const AffiliateInfo = () => {
         <p>
           Take “002” seconds and complete the form below. When we launch our
           affiliate program, you will be the first to know.
-        </p>
+        </p> */}
       </div>
     </div>
   );

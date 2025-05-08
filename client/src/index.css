@@ -3,14 +3,43 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 200vh; /* scrollable page */
-  background: linear-gradient(
-    to bottom,
-    #000000fb 0%,
-    /* black at the very top */ #000000fb 45%,
-    /* still black at 45% */ #000 95%,
-    /* light golden starts at 55% */ #000 80%,
-    /* slightly darker golden */ #000 100% /* even darker golden at bottom */
-  );
+  height: 100vh;
+  background: radial-gradient(
+      circle at left center,
+      #b8e01873 0.25%,
+      transparent 40%
+    ),
+    radial-gradient(circle at right center, #b8e01873 0.25%, transparent 40%),
+    #000000fb;
+  background-size: 50% 100%;
+  background-position: left, right;
+  background-repeat: no-repeat;
+
   overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Altone-bold";
+  src: url("/fonts/altone/AltoneTrial-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Altone-regular";
+  src: url("/fonts/altone/AltoneTrial-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Brush-italic";
+  src: url("../public/fonts/Brush-Script\ Italic/BrushScriptStd.otf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@theme {
+  --font-altoneBold: "Altone-bold";
+  --font-altoneRegular: "Altone-regular";
+  --font-brushItalic: "Brush-italic";
 }
