@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import pplIcon from "../assets/ppl.png";
 import pickleballCourt from "../assets/picleball_court.webp";
 import affiliateIcon from "../assets/affiliateIcon.png";
@@ -60,7 +59,8 @@ const BookmarkSection = () => {
           className="w-[76px] h-[90px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
         />
 
-        <SectionHeading text="AFFILIATE PROGRAM" />
+        <SectionHeading text="Affiliate Program" />
+
         <div className="overflow-x-hidden flex flex-col items-center justify-center px-4 sm:px-6">
           <div className="w-full font-normal font-altoneRegular max-w-2xl text-white text-2xl sm:text-3xl leading-normal text-center space-y-4">
             <p>Do you have a megaphone 📢 mouth?</p>
@@ -136,7 +136,7 @@ const BookmarkSection = () => {
           className="w-[75px] h-[68px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
         />
 
-        <SectionHeading text="Join Forces with Us" />
+        <SectionHeading text="Join Our Forces" />
 
         <p className="font-altoneRegular text-2xl sm:text-3xl md:text-3xl mb-2">
           To showcase your product(s) on our website and receive worldwide 🌍
