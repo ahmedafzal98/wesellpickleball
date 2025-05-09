@@ -139,7 +139,7 @@ const BookmarkSection = () => {
         <SectionHeading text="Join Forces with Us" />
 
         <p className="font-altoneRegular text-2xl sm:text-3xl md:text-3xl mb-2">
-          To showcase your product(s) on our website and receive worldwide
+          To showcase your product(s) on our website and receive worldwide 🌍
           exposure, email your product info, product pictures, pricing and our
           specific affiliate link so we can adopt you as part of our pickleball
           family:
