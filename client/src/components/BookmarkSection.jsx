@@ -95,7 +95,7 @@ const BookmarkSection = () => {
 
         <p className="font-altoneRegular text-2xl sm:text-3xl md:text-3xl">
           We are currently adopting followers. Join our online family via
-          Facebook, Instagram, and TikTok by clicking on the icons below
+          Facebook, Instagram, and TikTok by clicking on the icons below:
         </p>
 
         <div className="flex justify-center items-center gap-6 mb-22 text-3xl flex-wrap">
@@ -138,7 +138,7 @@ const BookmarkSection = () => {
 
         <p className="font-altoneRegular text-2xl sm:text-3xl md:text-3xl mb-2">
           To showcase your product(s) on our website and receive worldwide
-          exposure, email your product info, product pictures, pricing, and our
+          exposure, email your product info, product pictures, pricing and our
           specific affiliate link so we can adopt you as part of our pickleball
           family:
         </p>
@@ -146,13 +146,13 @@ const BookmarkSection = () => {
         <div className="flex flex-col items-center">
           <a
             href="mailto:info@wesellpickleball.com?subject=Product%20Suggestion/Feedback"
-            className="text-[#9AE600] font-altoneBold flex items-center text-2xl sm:text-3xl md:text-3xl hover:underline hover:scale-105 transition-transform"
+            className="text-[#9AE600] font-altoneRegular underline flex items-center text-2xl sm:text-3xl md:text-3xl hover:underline hover:scale-105 transition-transform"
           >
             <p>info@wesellpickleball.com</p>
           </a>
         </div>
 
-        <div className="flex justify-center mt-18">
+        <div className="flex justify-center mt-23">
           <img
             src={emailIcon}
             alt="socialIcon"
