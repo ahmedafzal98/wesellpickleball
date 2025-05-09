@@ -169,13 +169,13 @@ const BookmarkSection = () => {
         <div className="overflow-x-hidden flex flex-col items-center justify-center px-4 sm:px-6">
           <div className="w-full font-normal font-altoneRegular max-w-2xl text-white text-2xl sm:text-3xl leading-normal text-center space-y-4">
             <p>
-              Our mantra is fostering the pickleball community so we are all
-              ears. If you have any ideas or suggestions, email us as well. We
-              take your feedback very seriously because this is the pickleball
-              community’s website, not just ours.
+              Our mantra 🕉️ fostering the pickleball community so we are all
+              ears. If you have any ideas 💡 or suggestions, email us as well.
+              We take your feedback very seriously because this is the
+              pickleball community’s website, not just ours.
             </p>
 
-            <p>With pickles in our pockets and smiles on our faces,</p>
+            <p>With pickles in our pockets 👖 and smiles 😀 on our faces,</p>
           </div>
         </div>
         <div className="flex justify-center">
