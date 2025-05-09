@@ -7,6 +7,7 @@ import affiliateIcon from "../assets/affiliateIcon.png";
 import socialIcon from "../assets/social.png";
 import emailIcon from "../assets/EmailIcon.png";
 import AffiliateForm from "./AffiliateForm";
+import signature from "../assets/Your Pickleball Overlords.png";
 
 const BookmarkSection = () => {
   const [showModal, setShowModal] = useState(false);
@@ -175,10 +176,17 @@ const BookmarkSection = () => {
             <p>With pickles in our pockets and smiles on our faces,</p>
           </div>
         </div>
+        <div className="flex justify-center">
+          <img
+            src={signature}
+            alt="Your Pickleball Overlords"
+            className="h-8 sm:h-10 md:h-12 lg:h-14"
+          />
+        </div>
 
-        <p className="text-[#9AE600] font-brushItalic text-3xl sm:text-4xl leading-normal">
+        {/* <p className="text-[#9AE600] font-brushItalic text-3xl sm:text-4xl leading-normal">
           Your Pickleball Overlords
-        </p>
+        </p> */}
       </div>
 
       <div className="mt-10">
