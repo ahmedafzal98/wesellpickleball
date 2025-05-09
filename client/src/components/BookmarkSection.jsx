@@ -165,7 +165,7 @@ const BookmarkSection = () => {
 
         {/* Decorative "Connect With Us" heading */}
 
-        <SectionHeading text="Connect With Us" />
+        <SectionHeading text="Suggestions?" />
 
         <div className="overflow-x-hidden flex flex-col items-center justify-center px-4 sm:px-6">
           <div className="w-full font-normal font-altoneRegular max-w-2xl text-white text-2xl sm:text-3xl leading-normal text-center space-y-4">
