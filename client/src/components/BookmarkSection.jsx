@@ -5,6 +5,7 @@ import pickleballCourt from "../assets/picleball_court.webp";
 import affiliateIcon from "../assets/affiliateIcon.png";
 import socialIcon from "../assets/social.png";
 import emailIcon from "../assets/EmailIcon.png";
+import bulb from "../assets/Bulb.png";
 import AffiliateForm from "./AffiliateForm";
 import signature from "../assets/Your Pickleball Overlords.png";
 
@@ -156,9 +157,9 @@ const BookmarkSection = () => {
 
         <div className="flex justify-center mt-23">
           <img
-            src={emailIcon}
-            alt="socialIcon"
-            className="w-[66px] h-[53px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
+            src={bulb}
+            alt="bulb"
+            className="w-[77px] h-[77px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
           />
         </div>
 

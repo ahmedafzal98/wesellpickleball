@@ -62,27 +62,56 @@ const sendEmail = async (to) => {
     to,
     subject: "Get Your WeSellPickleball.com Affiliate On...",
     html: `
-      <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto;">
-        <div style="text-align: center;">
-          <img src="cid:logo" alt="WeSellPickleball Logo" style="width: 150px; margin-bottom: 20px;" />
-        </div>
-        <h2 style="color: #333;">Welcome Future WeSellPickleball.com Partner.</h2>
-        <p>You're in our court now!</p>
-        <p>Thanks for your interest in our WeSellPickleball.com affiliate program. Get ready to dive headfirst into the thrilling world of pickleball partnerships globally.</p>
-        <p>We're currently putting the final, oh-so-important touches on our program – think of it as finding the perfect grip for your affiliate paddle but… it's almost game time!</p>
-        <p>Soon, you'll be armed and ready to spread the joy and our robust product line via your personalized link.</p>
-        <p><strong>Keep your eyes peeled</strong> for an email explaining the official "Let's Get Pickling” signup.</p>
-        <p>We're absolutely thrilled to have you aboard the WeSellPickleball.com family.</p>
-        <p>Let the fun and the serious pickle-powered profits begin!</p>
-        <br />
-        <p>Thank you,<br><strong>Your Pickleball Overlords</strong></p>
-      </div>
+      <html>
+        <body style="margin:0; padding:0; background-color:black; font-family: Arial, sans-serif;">
+          <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="black">
+            <tr>
+              <td align="center">
+                <table role="presentation" border="0" cellpadding="20" cellspacing="0" width="600" bgcolor="black" style="color: #ffffff;">
+                  <tr>
+                    <td align="center">
+                      <img src="cid:logo" alt="WeSellPickleball Logo" style="width:150px; display:block; margin-bottom:20px;" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h1 style="color: #ffffff; text-align: center;">Welcome Future 🔮WeSellPickleball.com Partner.</h1>
+                      <p style="font-size: 16px; color: #ffffff;">You're in our court now! 😀</p>
+                      <p style="font-size: 16px; color: #ffffff;">
+                        Thanks for your interest in our <strong>WeSellPickleball.com</strong> affiliate program. Get ready to dive headfirst into the thrilling world 🌎 of pickleball partnerships globally.
+                      </p>
+                      <p style="font-size: 16px; color: #ffffff;">
+                        We're currently putting the final, oh-so-important touches on our program – think of it as finding the perfect grip for your paddle but… it's almost game time! 🕖
+                      </p>
+                      <p style="font-size: 16px; color: #ffffff;">
+                        Soon, you'll be armed and ready to spread the joy and our robust product line via your personalized link.
+                      </p>
+                      <p style="font-size: 16px; color: #ffffff;">
+                        Keep your eyes 👀 peeled for an email explaining the official <strong>"Let's Get Pickling”</strong> signup.
+                      </p>
+                      <p style="font-size: 16px; color: #ffffff;">
+                        We're absolutely thrilled to have you aboard the <strong>WeSellPickleball.com</strong> family 🧑‍🧑‍🧒‍🧒.
+                      </p>
+                      <p style="font-size: 16px; color: #ffffff;">
+                        Let the fun and the serious pickle-powered profits 🤑 begin!
+                      </p>
+                      <br />
+                      <p style="font-size: 16px; color: #ffffff;">Thank you,</p>
+                      <p style="font-size: 16px; color: #ffffff;"><strong>Your Pickleball Overlords</strong></p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </body>
+      </html>
     `,
     attachments: [
       {
         filename: "logo.webp",
         path: path.join(__dirname, "logo.webp"),
-        cid: "logo", // same as src="cid:logo"
+        cid: "logo", // must match src="cid:logo"
       },
     ],
   };
