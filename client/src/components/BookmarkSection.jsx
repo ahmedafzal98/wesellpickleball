@@ -63,7 +63,8 @@ const BookmarkSection = () => {
         <SectionHeading text="AFFILIATE PROGRAM" />
         <div className="overflow-x-hidden flex flex-col items-center justify-center px-4 sm:px-6">
           <div className="w-full font-normal font-altoneRegular max-w-2xl text-white text-2xl sm:text-3xl leading-normal text-center space-y-4">
-            <p>Do you have a megaphone mouth?</p>
+            <p>Do you have a megaphone 📢 mouth?</p>
+
             <p>Are you a social media influencer?</p>
             <p>
               Would you like to make some serious dough 💰 and spread some
@@ -71,11 +72,12 @@ const BookmarkSection = () => {
             </p>
             <p>
               If so, we have a{" "}
-              <span className="whitespace-nowrap">“dill”icious</span> deal for
-              you. Join our affiliate program—anytime someone uses your
-              personalized link, you receive commission and can make more green
-              than a leprechaun wears on St.Patty’s Day. ☘ Easy peasy!
+              <span className="whitespace-nowrap">“dill”icious 🥒 </span>
+              deal for you. Join our affiliate program—anytime someone uses your
+              personalized link, you receive commission 💵 and can make more
+              green than a leprechaun wears on St.Patty’s Day. ☘ Easy peasy!
             </p>
+
             <p>
               Take “002” seconds and complete the form below. When we launch our
               affiliate program, you will be the first to know.

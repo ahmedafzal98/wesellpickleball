@@ -15,19 +15,19 @@ const AffiliateInfo = () => {
         </p>
         <p>
           We’re talking EVERYTHING pickleball, from glow-in-the-dark pickleball
-          socks that play “Eye of the Tiger” when you sweat, to a personal
-          pickleball- fetching drone named, “Dinky.”
+          socks 🧦🧦 that play “Eye of the Tiger” when you sweat, to a personal
+          pickleball-fetching drone named, “Dinky.”
         </p>
         <p>
           We’re the Amazon for pickleball, so if you can dream it, we will have
           it.
         </p>
         <p>
-          We’re about to unleash pickleball pandemonium upon the world and
+          We’re about to unleash pickleball pandemonium upon the world 🌎 and
           you’re invited!
         </p>
         <p>
-          When we go live very soon, we will create a pickleball tsunami and
+          When we go live very soon, we will create a pickleball tsunami 🌊 and
           your pickleball life will never be the same.
         </p>
 
