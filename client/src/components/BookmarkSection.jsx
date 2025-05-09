@@ -6,6 +6,7 @@ import affiliateIcon from "../assets/affiliateIcon.png";
 import socialIcon from "../assets/social.png";
 import emailIcon from "../assets/EmailIcon.png";
 import bulb from "../assets/Bulb.png";
+import threeDots from "../assets/threeDots.png";
 import AffiliateForm from "./AffiliateForm";
 import signature from "../assets/Your Pickleball Overlords.png";
 
@@ -155,11 +156,16 @@ const BookmarkSection = () => {
           </a>
         </div>
 
-        <div className="flex justify-center mt-23">
+        <div className="flex flex-col gap-3 justify-center mt-23">
           <img
             src={bulb}
             alt="bulb"
             className="w-[77px] h-[77px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
+          />
+          <img
+            src={threeDots}
+            alt="threeDots"
+            className="w-[8px] h-[20px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
           />
         </div>
 
