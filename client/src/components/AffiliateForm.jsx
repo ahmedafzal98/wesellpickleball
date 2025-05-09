@@ -74,7 +74,7 @@ const AffiliateForm = () => {
   };
 
   return (
-    <div className="overflow-x-hidden flex flex-col items-center justify-center sm:py-12 px-6 mt-10">
+    <div className="w-full overflow-x-hidden flex flex-col items-center justify-center sm:py-12 mt-10">
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-2xl space-y-6 sm:space-y-8"

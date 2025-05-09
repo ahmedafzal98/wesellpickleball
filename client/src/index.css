@@ -32,8 +32,8 @@ body {
 }
 @font-face {
   font-family: "Brush-italic";
-  src: url("../public/fonts/Brush-Script\ Italic/BrushScriptStd.otf")
-    format("truetype");
+  src: url("/fonts/BrushScriptConvert/BrushScriptStd.woff") format("woff2"),
+    url("/fonts/BrushScriptConvert/BrushScriptStd.woff2") format("woff2");
   font-weight: 500;
   font-style: italic;
 }

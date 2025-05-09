@@ -69,10 +69,11 @@ const BookmarkSection = () => {
               Pickleball Gospel?
             </p>
             <p>
-              If so, we have a “dill”icious deal for you. Join our affiliate
-              program—anytime someone uses your personalized link, you receive
-              commission and can make more green than a leprechaun wears on
-              St.Patty’s Day. ☘ Easy peasy!
+              If so, we have a{" "}
+              <span className="whitespace-nowrap">“dill”icious</span> deal for
+              you. Join our affiliate program—anytime someone uses your
+              personalized link, you receive commission and can make more green
+              than a leprechaun wears on St.Patty’s Day. ☘ Easy peasy!
             </p>
             <p>
               Take “002” seconds and complete the form below. When we launch our
