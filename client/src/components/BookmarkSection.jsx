@@ -176,9 +176,9 @@ const BookmarkSection = () => {
 
           {/* Social Icon */}
           <img
-            src={socialIcon}
-            alt="socialIcon"
-            className="w-[77px] h-[77px] sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
+            src={pplIcon}
+            alt="pplIcon"
+            className="w-auto h-auto mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
           />
         </div>
 
