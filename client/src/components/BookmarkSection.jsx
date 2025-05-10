@@ -156,16 +156,29 @@ const BookmarkSection = () => {
           </a>
         </div>
 
-        <div className="flex flex-col gap-3 justify-center mt-23">
+        <div className="flex flex-col items-center mt-23 gap-8">
+          {/* Bulb Icon */}
           <img
             src={bulb}
             alt="bulb"
-            className="w-[77px] h-[77px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
+            className="w-[77px] h-[77px] sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
           />
+
+          {/* Thinking Dots */}
+          <div className="flex flex-col gap-1 items-center">
+            <span className="w-3 h-3 rounded-full bg-white animate-bounce [animation-delay:0s]"></span>{" "}
+            {/* Large */}
+            <span className="w-2.5 h-2.5 rounded-full bg-white animate-bounce [animation-delay:0.2s]"></span>{" "}
+            {/* Medium */}
+            <span className="w-2 h-2 rounded-full bg-white animate-bounce [animation-delay:0.4s]"></span>{" "}
+            {/* Small */}
+          </div>
+
+          {/* Social Icon */}
           <img
-            src={threeDots}
-            alt="threeDots"
-            className="w-[8px] h-[20px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
+            src={socialIcon}
+            alt="socialIcon"
+            className="w-[77px] h-[77px] sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
           />
         </div>
 
