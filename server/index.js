@@ -11,6 +11,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173", // Vite local dev server
   "https://wesellpickleball-client.onrender.com", // Your deployed frontend
+  "https://wesellpickleball.com/", // Live Domain
 ];
 
 app.use(
