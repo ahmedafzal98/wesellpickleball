@@ -45,7 +45,7 @@ const BookmarkSection = () => {
           <a
             href="#"
             onClick={handleBookmark}
-            className="text-[#9AE600] leading-relaxed mt-5 font-bold text-3xl sm:text-4xl hover:underline hover:scale-105 transition-transform"
+            className="text-[#9AE600] leading-relaxed mt-9 font-bold text-3xl sm:text-4xl hover:underline hover:scale-105 transition-transform"
           >
             Click here to bookmark this page.
           </a>
@@ -156,7 +156,7 @@ const BookmarkSection = () => {
           </a>
         </div>
 
-        <div className="flex flex-col items-center mt-23 gap-8">
+        <div className="flex flex-col items-center mt-23 gap-4">
           {/* Bulb Icon */}
           <img
             src={bulb}
