@@ -61,7 +61,14 @@ const BookmarkSection = () => {
           className="w-[76px] h-[90px] mx-auto sm:w-[90px] sm:h-[110px] md:w-[110px] md:h-[130px]"
         />
 
-        <SectionHeading text="Affiliate Program" />
+        <div className="flex items-center justify-center mb-6">
+          <div className="w-full h-0.5 bg-[#9AE600] rounded-full" />
+          <h2 className="text-[#9AE600] font-altoneBold text-3xl sm:text-4xl md:text-4xl px-4 text-center">
+            Affiliate Program
+          </h2>
+          <div className="w-full h-0.5 bg-[#9AE600] rounded-full" />
+        </div>
+        {/* <SectionHeading text="Affiliate Program" /> */}
 
         <div className="overflow-x-hidden flex flex-col items-center justify-center px-4 sm:px-6">
           <div className="w-full font-normal font-altoneRegular max-w-2xl text-white text-2xl sm:text-3xl leading-normal text-center space-y-4">
@@ -189,10 +196,10 @@ const BookmarkSection = () => {
         <div className="overflow-x-hidden flex flex-col items-center justify-center px-4 sm:px-6">
           <div className="w-full font-normal font-altoneRegular max-w-2xl text-white text-2xl sm:text-3xl leading-normal text-center space-y-4">
             <p>
-              Our mantra 🕉️ fostering the pickleball community so we are all
-              ears. If you have any ideas 💡 or suggestions, email us as well.
-              We take your feedback very seriously because this is the
-              pickleball community’s website, not just ours.
+              Our mantra 🕉️ is to listen to the pickleball community’s needs and
+              wants so we are all ears. If you have any ideas 💡 or suggestions,
+              email us as well. We take your feedback very seriously because
+              this is the pickleball community’s website, not just ours.
             </p>
 
             <p>With pickles in our pockets 👖 and smiles 😀 on our faces,</p>
