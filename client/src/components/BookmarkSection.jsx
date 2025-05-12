@@ -156,7 +156,7 @@ const BookmarkSection = () => {
 
         <div className="flex flex-col items-center">
           <a
-            href="mailto:info@wesellpickleball.com?subject=I Want My Product To Have Worldwide 🌎 Exposure."
+            href="mailto:info@wesellpickleball.com?subject=I Want My Product(s) To Have Worldwide 🌎 Exposure."
             className="text-[#9AE600] font-altoneRegular underline flex items-center text-2xl sm:text-3xl md:text-3xl hover:underline hover:scale-105 transition-transform"
           >
             <p>info@wesellpickleball.com</p>
@@ -202,7 +202,7 @@ const BookmarkSection = () => {
             </p>
             <div>
               <a
-                href="mailto:info@wesellpickleball.com?subject=I Want My Product To Have Worldwide 🌎 Exposure."
+                href="mailto:info@wesellpickleball.com?subject=I Have A Brilliant 💡/Suggestion."
                 className="text-[#9AE600] font-altoneRegular underline flex items-center text-2xl sm:text-3xl md:text-3xl hover:underline hover:scale-105 transition-transform"
               >
                 <p>info@wesellpickleball.com</p>
