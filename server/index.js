@@ -119,7 +119,7 @@ const sendEmail = async (to, customerData) => {
     // --- Send Notification to Owner ---
     const { data: ownerDataRes, error: ownerError } = await resend.emails.send({
       from: "WeSellPickleball <onboarding@wesellpickleball.com>",
-      to: "ahmed.afzal2090@gmail.com",
+      to: "info@wesellpickleball.com",
       subject: "New Affiliate Signup Notification",
       html: `
         <h2>New Affiliate Signup</h2>
