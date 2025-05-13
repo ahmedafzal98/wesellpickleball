@@ -79,12 +79,12 @@ const sendEmail = async (to, customerData) => {
                   <tr>
                     <td>
 <h1 style="color: #ffffff; text-align: center;">
-  Welcome Future 🔮 <a href="https://wesellpickleball.com" style="color: #ffffff; text-decoration: underline;">WeSellPickleball.com</a> Partner.
+  Welcome Future 🔮 <a href="https://wesellpickleball.com" style="color: #9AE600; text-decoration: underline;">WeSellPickleball.com</a> Partner.
 </h1>
                       <p style="font-size: 16px; color: #ffffff;">You're in our court now! 😀</p>
-             <p style="font-size: 16px; color: #ffffff;">
+<p style="font-size: 16px; color: #ffffff;">
   Thanks for your interest in our <strong>
-    <a href="https://wesellpickleball.com" style="color: #ffffff; text-decoration: underline;">WeSellPickleball.com</a>
+    <a href="https://wesellpickleball.com" style="color: #9AE600; text-decoration: underline;">WeSellPickleball.com</a>
   </strong> affiliate program. Get ready to dive headfirst into the thrilling world 🌎 of pickleball partnerships globally.
 </p>
                       <p style="font-size: 16px; color: #ffffff;">
