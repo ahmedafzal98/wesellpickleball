@@ -109,7 +109,7 @@ const BookmarkSection = () => {
           Facebook, Instagram, and TikTok by clicking on the icons below:
         </p>
 
-        <div className="flex justify-center items-center gap-6 mb-26 text-3xl flex-wrap">
+        <div className="flex justify-center items-center gap-6 mb-30 text-3xl flex-wrap">
           <a
             href="https://www.facebook.com/wesellpickleball"
             target="_blank"
@@ -163,7 +163,7 @@ const BookmarkSection = () => {
           </a>
         </div>
 
-        <div className="flex flex-col items-center mt-28 gap-4">
+        <div className="flex flex-col items-center mt-30 gap-4">
           {/* Bulb Icon */}
           <img
             src={bulb}
@@ -200,9 +200,9 @@ const BookmarkSection = () => {
               wants, so we are all ears. If you have any ideas 💡 or
               suggestions, email us:
             </p>
-            <div className="flex justify-center">
+            <div className="flex flex-col items-center">
               <a
-                href="mailto:info@wesellpickleball.com?subject=I Have A Brilliant Idea 💡/Suggestion."
+                href="mailto:info@wesellpickleball.com?subject=I Want My Product(s) To Have Worldwide 🌎 Exposure."
                 className="text-[#9AE600] font-altoneRegular underline flex items-center text-2xl sm:text-3xl md:text-3xl hover:underline hover:scale-105 transition-transform"
               >
                 <p>info@wesellpickleball.com</p>
