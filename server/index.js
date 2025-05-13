@@ -72,12 +72,13 @@ const sendEmail = async (to, customerData) => {
                 <table role="presentation" border="0" cellpadding="20" cellspacing="0" width="600" bgcolor="black" style="color: #ffffff;">
                   <tr>
                     <td align="center">
-                      <img src="https://wesellpickleball.com/assets/pickleball_logo-CCgo5HKu.webp" alt="WeSellPickleball Logo" style="width:150px; display:block; margin-bottom:20px;" />
+<img src="https://wesellpickleball.com/assets/pickleball_logo-CCgo5HKu.webp" alt="WeSellPickleball Logo" style="width:250px; display:block; margin-bottom:20px;" />
+
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <h1 style="color: #ffffff; text-align: center;">Welcome Future 🔮WeSellPickleball.com Partner.</h1>
+                      <h1 style="color: #ffffff; text-align: center;">Welcome Future 🔮 WeSellPickleball.com Partner.</h1>
                       <p style="font-size: 16px; color: #ffffff;">You're in our court now! 😀</p>
                       <p style="font-size: 16px; color: #ffffff;">
                         Thanks for your interest in our <strong>WeSellPickleball.com</strong> affiliate program. Get ready to dive headfirst into the thrilling world 🌎 of pickleball partnerships globally.
