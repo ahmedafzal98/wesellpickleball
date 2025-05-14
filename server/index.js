@@ -65,54 +65,79 @@ const sendEmail = async (to, customerData) => {
         to,
         subject: "Get Your WeSellPickleball.com Affiliate On...",
         html: `<html>
-        <body style="margin:0; padding:0; background-color:black; font-family: Arial, sans-serif;">
-          <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="black">
+  <body style="margin:0; padding:0; background-color:black; font-family: Arial, sans-serif;">
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="black" style="max-width: 100%; width: 100%; box-sizing: border-box;">
+      <tr>
+        <td align="center">
+          <table role="presentation" border="0" cellpadding="20" cellspacing="0" width="100%" bgcolor="black" style="color: #ffffff; max-width: 600px; width: 100%; box-sizing: border-box;">
             <tr>
               <td align="center">
-                <table role="presentation" border="0" cellpadding="20" cellspacing="0" width="600" bgcolor="black" style="color: #ffffff;">
-                  <tr>
-                    <td align="center">
-<img src="https://wesellpickleball.com/assets/pickleball_logo-CCgo5HKu.webp" alt="WeSellPickleball Logo" style="width:250px; display:block; margin-bottom:20px;" />
-
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-<h1 style="color: #ffffff; text-align: center;">
-  Welcome Future 🔮 <a href="https://wesellpickleball.com" style="color: #9AE600; text-decoration: underline;">WeSellPickleball.com</a> Partner.
-</h1>
-                      <p style="font-size: 16px; color: #ffffff;">You're in our court now! 😀</p>
-<p style="font-size: 16px; color: #ffffff;">
-  Thanks for your interest in our <strong>
-    <a href="https://wesellpickleball.com" style="color: #9AE600; text-decoration: underline;">WeSellPickleball.com</a>
-  </strong> affiliate program. Get ready to dive headfirst into the thrilling world 🌎 of pickleball partnerships globally.
-</p>
-                      <p style="font-size: 16px; color: #ffffff;">
-                        We're currently putting the final touches on our program – it’s almost game time! 🕖
-                      </p>
-                      <p style="font-size: 16px; color: #ffffff;">
-                        Soon, you'll be ready to spread the joy and our robust product line via your personalized link.
-                      </p>
-                      <p style="font-size: 16px; color: #ffffff;">
-                        Keep your eyes peeled for an email explaining the official <strong>"Let's Get Pickling”</strong> signup.
-                      </p>
-             <p style="font-size: 16px; color: #ffffff;">
-  We're thrilled to have you aboard the <strong><span style="color: #9AE600;">WeSellPickleball.com</span></strong> family 🧑‍🧑‍🧒‍🧒.
-</p>
-                      <p style="font-size: 16px; color: #ffffff;">
-                        Let the fun and the serious pickle-powered profits 🤑 begin!
-                      </p>
-                      <br />
-                      <p style="font-size: 16px; color: #ffffff;">Thank you,</p>
-                      <p style="font-size: 16px; color: #ffffff;"><strong>Your Pickleball Overlords</strong></p>
-                    </td>
-                  </tr>
-                </table>
+                <img src="https://wesellpickleball.com/assets/pickleball_logo-CCgo5HKu.webp" alt="WeSellPickleball Logo" style="width: 100%; max-width: 250px; display: block; margin-bottom:20px;" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h1 style="color: #ffffff; text-align: center;">
+                  Welcome Future 🔮 <a href="https://wesellpickleball.com" style="color: #9AE600; text-decoration: underline;">WeSellPickleball.com</a> Partner.
+                </h1>
+                <p style="font-size: 16px; color: #ffffff;">You're in our court now! 😀</p>
+                <p style="font-size: 16px; color: #ffffff;">
+                  Thanks for your interest in our <strong>
+                    <a href="https://wesellpickleball.com" style="color: #9AE600; text-decoration: underline;">WeSellPickleball.com</a>
+                  </strong> affiliate program. Get ready to dive headfirst into the thrilling world 🌎 of pickleball partnerships globally.
+                </p>
+                <p style="font-size: 16px; color: #ffffff;">
+                  We're currently putting the final touches on our program – it’s almost game time! 🕖
+                </p>
+                <p style="font-size: 16px; color: #ffffff;">
+                  Soon, you'll be ready to spread the joy and our robust product line via your personalized link.
+                </p>
+                <p style="font-size: 16px; color: #ffffff;">
+                  Keep your eyes peeled for an email explaining the official <strong>"Let's Get Pickling”</strong> signup.
+                </p>
+                <p style="font-size: 16px; color: #ffffff;">
+                  We're thrilled to have you aboard the <strong><span style="color: #9AE600;">WeSellPickleball.com</span></strong> family 🧑‍🧑‍🧒‍🧒.
+                </p>
+                <p style="font-size: 16px; color: #ffffff;">
+                  Let the fun and the serious pickle-powered profits 🤑 begin!
+                </p>
+                <br />
+                <p style="font-size: 16px; color: #ffffff;">Thank you,</p>
+                <p style="font-size: 16px; color: #ffffff;"><strong>Your Pickleball Overlords</strong></p>
               </td>
             </tr>
           </table>
-        </body>
-      </html>`,
+        </td>
+      </tr>
+    </table>
+
+    <!-- Media Queries for Responsive Design -->
+    <style>
+      @media only screen and (max-width: 600px) {
+        table {
+          width: 100% !important;
+        }
+
+        img {
+          width: 100% !important;
+          max-width: 250px !important;
+        }
+
+        td {
+          padding: 10px !important;
+        }
+
+        h1 {
+          font-size: 24px !important;
+        }
+
+        p {
+          font-size: 14px !important;
+        }
+      }
+    </style>
+  </body>
+</html>`,
       });
 
     if (customerError) {
