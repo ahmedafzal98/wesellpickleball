@@ -101,7 +101,6 @@ const sendEmail = async (to, customerData) => {
                 <p style="font-size: 16px; color: #ffffff;">
                   Let the fun and the serious pickle-powered profits 🤑 begin!
                 </p>
-                <br />
                 <p style="font-size: 16px; color: #ffffff;">Thank you,</p>
                 <p style="font-size: 16px; color: #ffffff;"><strong>Your Pickleball Overlords</strong></p>
               </td>
