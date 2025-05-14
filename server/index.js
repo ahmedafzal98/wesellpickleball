@@ -61,7 +61,7 @@ const sendEmail = async (to, customerData) => {
     // --- Send Email to Customer ---
     const { data: customerDataRes, error: customerError } =
       await resend.emails.send({
-        from: "WeSellPickleball <onboarding@wesellpickleball.com>",
+        from: "WeSellPickleball <info@wesellpickleball.com>",
         to,
         subject: "Get Your WeSellPickleball.com Affiliate On...",
         html: `<html>

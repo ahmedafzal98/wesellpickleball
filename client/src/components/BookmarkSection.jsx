@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import pplIcon from "../assets/ppl.png";
 import pickleballCourt from "../assets/picleball_court.webp";
@@ -12,6 +12,19 @@ import signature from "../assets/Your Pickleball Overlords.png";
 
 const BookmarkSection = () => {
   const [showModal, setShowModal] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const userAgent = typeof window !== "undefined" ? navigator.userAgent : "";
+    const mobileRegex = /iPhone|iPad|iPod|Android/i;
+    setIsMobile(mobileRegex.test(userAgent));
+  }, []);
+
+  if (isMobile === null) return null;
+
+  // useEffect(() => {
+  //   setIsMobile(checkMobileDevice());
+  // }, []);
 
   const handleBookmark = (e) => {
     e.preventDefault();
@@ -23,6 +36,10 @@ const BookmarkSection = () => {
     } else {
       setShowModal(true);
     }
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
   };
 
   // Reusable heading section
@@ -239,17 +256,63 @@ const BookmarkSection = () => {
 
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 px-4">
-          <div className="bg-white p-6 rounded-xl shadow-lg text-center max-w-md w-full">
-            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">
-              To bookmark WeSellPickleball.com,
-            </h2>
-            <p className="text-gray-700 text-base sm:text-lg">
-              Press <strong>Ctrl + D</strong> (Windows) <br />
-              or <br />
-              <strong>Cmd + D</strong> (Mac)
-            </p>
+          <div
+            className="bg-white p-6 rounded-xl shadow-lg text-center max-w-md w-full"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {isMobile ? (
+              <>
+                <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">
+                  How to Bookmark This Page
+                </h2>
+                <div className="text-gray-700 text-base sm:text-lg space-y-4 text-left">
+                  <div>
+                    <strong>📱 iPhone / iPad:</strong>
+                    <ol className="list-decimal list-inside mt-1">
+                      <li>
+                        Tap the <strong>Share</strong> button (square with
+                        arrow).
+                      </li>
+                      <li>
+                        Scroll down and tap <strong>Add to Home Screen</strong>.
+                      </li>
+                      <li>
+                        Tap <strong>Add</strong> in the top right corner.
+                      </li>
+                    </ol>
+                  </div>
+                  <div>
+                    <strong>🤖 Android:</strong>
+                    <ol className="list-decimal list-inside mt-1">
+                      <li>
+                        Tap the <strong>3 dots</strong> menu in the top-right
+                        corner.
+                      </li>
+                      <li>
+                        Select <strong>Add to Home Screen</strong>.
+                      </li>
+                      <li>
+                        Tap <strong>Add</strong>.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <>
+                <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">
+                  To bookmark WeSellPickleball.com,
+                </h2>
+                <p className="text-gray-700 text-base sm:text-lg">
+                  Press <strong>Ctrl + D</strong> (Windows) <br />
+                  or <br />
+                  <strong>Cmd + D</strong> (Mac)
+                </p>
+              </>
+            )}
+
             <button
-              onClick={() => setShowModal(false)}
+              onClick={closeModal}
               className="mt-6 px-4 py-2 bg-lime-500 hover:bg-lime-600 text-white rounded-lg transition"
             >
               Exit
