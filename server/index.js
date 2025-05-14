@@ -96,9 +96,9 @@ const sendEmail = async (to, customerData) => {
                       <p style="font-size: 16px; color: #ffffff;">
                         Keep your eyes peeled for an email explaining the official <strong>"Let's Get Pickling”</strong> signup.
                       </p>
-                      <p style="font-size: 16px; color: #ffffff;">
-                        We're thrilled to have you aboard the <strong>WeSellPickleball.com</strong> family 🧑‍🧑‍🧒‍🧒.
-                      </p>
+             <p style="font-size: 16px; color: #ffffff;">
+  We're thrilled to have you aboard the <strong><span style="color: #9AE600;">WeSellPickleball.com</span></strong> family 🧑‍🧑‍🧒‍🧒.
+</p>
                       <p style="font-size: 16px; color: #ffffff;">
                         Let the fun and the serious pickle-powered profits 🤑 begin!
                       </p>
