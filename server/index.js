@@ -173,7 +173,7 @@ const sendEmail = async (to, customerData) => {
 
     return { success: true };
   } catch (err) {
-    console.error("🔥 Unexpected error in sendEmail:", err);
+    console.error("Unexpected error in sendEmail:", err);
     return { success: false, error: err.message };
   }
 };
@@ -207,7 +207,10 @@ app.post("/api/affiliate", async (req, res) => {
     }
 
     // --- Done ---
-    res.status(200).json({ message: "Form submitted and emails sent!" });
+    res.status(200).json({
+      message:
+        "Thank you! 🙏🏻 Your contact info was effectively captured and a confirmation email was sent. 👍🏻",
+    });
   } catch (error) {
     console.error("🔥 Error in /api/affiliate:", error);
     res.status(500).json({ message: "Server error.", error });
