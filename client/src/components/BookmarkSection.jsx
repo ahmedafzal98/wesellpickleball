@@ -173,7 +173,7 @@ const BookmarkSection = () => {
 
         <div className="flex flex-col items-center">
           <a
-            href="mailto:info@wesellpickleball.com?subject=I Want My Product(s) To Have Worldwide 🌎 Exposure."
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=info@wesellpickleball.com&su=I%20Want%20My%20Product(s)%20To%20Have%20Worldwide%20🌎%20Exposure."
             className="text-[#9AE600] font-altoneRegular underline flex items-center text-2xl sm:text-3xl md:text-3xl hover:underline hover:scale-105 transition-transform"
           >
             <p>info@wesellpickleball.com</p>
@@ -219,7 +219,7 @@ const BookmarkSection = () => {
             </p>
             <div className="flex flex-col items-center">
               <a
-                href="mailto:info@wesellpickleball.com?subject=I Want My Product(s) To Have Worldwide 🌎 Exposure."
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=info@wesellpickleball.com&su=I%20Want%20My%20Product(s)%20To%20Have%20Worldwide%20🌎%20Exposure."
                 className="text-[#9AE600] font-altoneRegular underline flex items-center text-2xl sm:text-3xl md:text-3xl hover:underline hover:scale-105 transition-transform"
               >
                 <p>info@wesellpickleball.com</p>
