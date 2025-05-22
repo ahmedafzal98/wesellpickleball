@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="overflow-x-hidden text-white flex flex-col items-center justify-center h-auto">
-        <div className="w-full sm:w-4/5 flex justify-center xl:justify-start">
+        <div className="w-full sm:w-4/5 flex justify-center">
           <img
             src={pickleball_logo}
             alt="Pickleball Logo"
