@@ -9,6 +9,8 @@ const AffiliateForm = () => {
 
   const [errors, setErrors] = useState({});
   const [serverMessage, setServerMessage] = useState({ type: "", message: "" });
+  const [affiliateLink, setAffiliateLink] = useState(""); // store affiliate link
+  const [copied, setCopied] = useState(false); // track copy action
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -31,10 +33,6 @@ const AffiliateForm = () => {
   };
 
   const handleSubmit = async (e) => {
-    const apiUrl = import.meta.env.VITE_API_URL;
-
-    console.log(apiUrl);
-
     e.preventDefault();
     const validationErrors = validateForm();
     setErrors(validationErrors);
@@ -56,7 +54,8 @@ const AffiliateForm = () => {
 
         if (response.ok) {
           setServerMessage({ type: "success", message: data.message });
-          setFormData({ firstName: "", lastName: "", email: "" }); // Reset form
+          setAffiliateLink(data.affiliateLink || ""); // store affiliate link
+          setFormData({ firstName: "", lastName: "", email: "" });
         } else {
           setServerMessage({
             type: "error",
@@ -71,6 +70,13 @@ const AffiliateForm = () => {
         });
       }
     }
+  };
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(affiliateLink);
+    setCopied(true);
+
+    setTimeout(() => setCopied(false), 2000); // hide "Copied!" after 2s
   };
 
   return (
@@ -147,6 +153,27 @@ const AffiliateForm = () => {
           </button>
         </div>
       </form>
+
+      {/* Show affiliate link if available */}
+      {affiliateLink && (
+        <div className="mt-6 flex flex-col items-center gap-2">
+          <p className="text-white">Your Affiliate Link:</p>
+          <div className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-lg">
+            <span className="text-green-400">{affiliateLink}</span>
+            <button
+              onClick={handleCopy}
+              className="ml-2 px-3 py-1 bg-[#9AE600] text-black rounded-md hover:bg-green-400"
+            >
+              Copy
+            </button>
+          </div>
+          {copied && (
+            <p className="text-sm text-green-400 font-semibold">
+              Affiliate link copied!
+            </p>
+          )}
+        </div>
+      )}
     </div>
   );
 };
