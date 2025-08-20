@@ -40,7 +40,7 @@ const AffiliateForm = () => {
     if (Object.keys(validationErrors).length === 0) {
       try {
         const response = await fetch(
-          `https://wesellpickleball.onrender.com/api/affiliate`,
+          `https://pickleball-store-backend.onrender.com/addUser`,
           {
             method: "POST",
             headers: {
