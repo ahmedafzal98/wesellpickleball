@@ -5,12 +5,14 @@ require("dotenv").config();
 const connectDB = require("./config/db");
 
 const affiliateRoutes = require("./routes/affiliateRoutes");
+const goalRoutes = require("./routes/goalRoutes");
 
 const app = express();
 
 // Allowed CORS origins
 const allowedOrigins = [
   "http://localhost:5173",
+  "http://localhost:5174",
   "http://localhost:3000",
   "https://wesellpickleball-client.onrender.com",
   "https://wesellpickleball.com",
@@ -34,6 +36,7 @@ app.use(bodyParser.json());
 connectDB();
 
 app.use("/api/affiliate", affiliateRoutes);
+app.use("/api/goal", goalRoutes);
 
 // Start server
 const port = process.env.PORT || 5000;
